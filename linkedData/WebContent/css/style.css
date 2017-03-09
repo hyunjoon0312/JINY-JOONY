@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {word-break:break-all;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,button,p,blockquote,th,td,label {
+	margin:0; padding:0; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;
+}
+img,fieldset{border:0}
+ul,ol,li{list-style:none;}
+hr {display:none;}
+a {color:inherit; text-decoration:none;}
+
+/* menu */
+.top_menu {text-align: center; padding:10px;}
+
+
+/* MIddle bn */
+#main {width:1346px; margin:auto;}
+
+#main div{
+	font-family: 'Nanum Gothic', sans-serif;
+	width:200px; height:350px; padding:10px 5px;
+	margin:0 5px;
+	float:left; text-align:center;
+	font-size:30px; font-weight:bold;
+	background:#034f84;
+	color:#fff;
+}
+#main div:hover{
+	background:#91a8d0; color:#000;
+}
+#foot {width:1346px; margin:auto;}
+#foot div{
+	font-family: 'Nanum Gothic', sans-serif;
+	width:1300px; height:50px; padding:10px 5px;
+	margin:5px 5px;
+	float:left; text-align:center;
+	font-size:30px; font-weight:bold;
+	background:#034f84;
+	color:#fff;
+}
+#foot div:hover{
+	background:#91a8d0; color:#000;
+}
+s
+#bar {width:1346px; margin:auto;}
+#bar div{
+	font-family: 'Nanum Gothic', sans-serif;
+	width:200px; height:50px; padding:15px 0px;
+	margin:0 0px;
+	float:left; text-align:center;
+	font-size:15px; font-weight:bold;
+	background:#034f84;
+	color:#fff;
+}
+#bar div:hover{
+	background:#91a8d0; color:#000;
+}
+
+#loginFormArea{
+	margin : auto;
+	padding: 20px;
+	width : 400px;
+	height : 200px;
+	border : 2px double black; 
+	border-radius : 10px;
+	text-align: center;
+}
+
+
+
+
+
+h1{
+	padding:20px;
+}
+tr{height: 40px;}
+
+body{padding:20px;}
